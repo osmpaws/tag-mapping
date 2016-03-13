@@ -509,6 +509,7 @@
 		
 		<osm-tag key="natural" value="beach" zoom-appear="10" />
 		<osm-tag key="natural" value="coastline" zoom-appear="0" />
+		<osm-tag key="natural" value="sea" zoom-appear="0" />
 		<osm-tag key="natural" value="glacier" zoom-appear="8" enabled="false"/>
 		<osm-tag key="natural" value="heath" zoom-appear="10" />
 		<osm-tag key="natural" value="land" zoom-appear="8" />
