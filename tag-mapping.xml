@@ -627,6 +627,7 @@
 		<osm-tag key="building" value="cathedral" zoom-appear="15" />
 		<osm-tag key="building" value="chapel" zoom-appear="15" />
 		<osm-tag key="building" value="church" zoom-appear="15" />
+		<osm-tag key="building" value="temple" zoom-appear="15" />
 		<osm-tag key="building" value="civic" zoom-appear="15" />		
 		<osm-tag key="building" value="commercial" zoom-appear="15" />
 		<osm-tag key="building" value="construction" zoom-appear="15" />
