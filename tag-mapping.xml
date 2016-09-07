@@ -754,6 +754,8 @@
 		<osm-tag key="access" value="private" renderable="false" />
 		<osm-tag key="foot" value="no" renderable="false" />
 		<osm-tag key="bicycle" value="no" renderable="false" />
+		<osm-tag key="bicycle" value="designated" renderable="false" />
+		<osm-tag key="foot" value="designated" renderable="false" />
 
 		<osm-tag key="bridge" value="yes" renderable="false" />
 
