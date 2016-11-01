@@ -89,15 +89,17 @@
 		<osm-tag key="tourism" value="information" zoom-appear="14" />
 		<osm-tag key="tourism" value="museum" zoom-appear="17" />
 		<osm-tag key="tourism" value="guest_house" zoom-appear="17" />
-		<osm-tag key="tourism" value="viewpoint" zoom-appear="15" />
-		<osm-tag key="tourism" value="alpine_hut" zoom-appear="15" />
+		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
+		<osm-tag key="tourism" value="alpine_hut" zoom-appear="14" />
+		<osm-tag key="tourism" value="camp_site" zoom-appear="14" />
 
-		<osm-tag key="historic" value="memorial" zoom-appear="17" />
-		<osm-tag key="historic" value="monument" zoom-appear="17" />
-		<osm-tag key="historic" value="wayside_cross" zoom-appear="17" />
-		<osm-tag key="historic" value="wayside_shrine" zoom-appear="17" />
-		<osm-tag key="historic" value="ruins" zoom-appear="17" />
-		<osm-tag key="historic" value="castle" zoom-appear="15" />
+		<osm-tag key="historic" value="memorial" zoom-appear="16" />
+		<osm-tag key="historic" value="monument" zoom-appear="16" />
+		<osm-tag key="historic" value="wayside_cross" zoom-appear="16" />
+		<osm-tag key="historic" value="wayside_shrine" zoom-appear="16" />
+		<osm-tag key="historic" value="ruins" zoom-appear="12" />
+		<osm-tag key="historic" value="castle" zoom-appear="12" />
+		<osm-tag key="historic" value="archaeological_site" zoom-appear="16" />
 	</pois>
 
 	<!-- PLACES TAGS -->
@@ -556,7 +558,7 @@
 		<osm-tag key="landuse" value="reservoir" zoom-appear="10" />
 		<osm-tag key="landuse" value="residential" zoom-appear="10" />
 		<osm-tag key="landuse" value="retail" zoom-appear="10" />
-		<osm-tag key="landuse" value="village_green" zoom-appear="10" />
+		<osm-tag key="landuse" value="village_green" zoom-appear="13" />
 		<osm-tag key="landuse" value="vineyard" zoom-appear="12" />
 		<osm-tag key="landuse" value="wood" zoom-appear="8" />
 	</ways>
@@ -608,6 +610,7 @@
 	<ways>
 		<osm-tag key="route" value="ferry" zoom-appear="12" />
 		<osm-tag key="railway" value="abandoned" zoom-appear="14" />
+		<osm-tag key="railway" value="preserved" zoom-appear="14" />
 		<osm-tag key="railway" value="light_rail" zoom-appear="12" />
 		<osm-tag key="railway" value="narrow_gauge" zoom-appear="14" />
 		<osm-tag key="railway" value="platform" zoom-appear="14" />
@@ -615,6 +618,7 @@
 		<osm-tag key="railway" value="station" zoom-appear="14" />
 		<osm-tag key="railway" value="subway" zoom-appear="15" />
 		<osm-tag key="railway" value="tram" zoom-appear="15" />
+		<osm-tag key="service" value="spur" zoom-appear="14" />
 	</ways>
 
 	<!-- BUILDINGS -->
@@ -642,7 +646,8 @@
 		<osm-tag key="building" value="government" zoom-appear="13" />
 		<osm-tag key="building" value="greenhouse" zoom-appear="15" />
 		<osm-tag key="building" value="gym" zoom-appear="15" />
-		<osm-tag key="building" value="hangar" zoom-appear="15" />
+		<osm-tag key="building" value="hangar" zoom-appear="15" />		
+		<osm-tag key="building" value="hospital" zoom-appear="15" />
 		<osm-tag key="building" value="hotel" zoom-appear="15" />
 		<osm-tag key="building" value="house" zoom-appear="15" />
 		<osm-tag key="building" value="hut" zoom-appear="15" />
@@ -727,13 +732,13 @@
 		<osm-tag key="boundary" value="administrative" force-polygon-line="true" zoom-appear="0" enabled="false"/>
 		<osm-tag key="boundary" value="national_park" force-polygon-line="true" zoom-appear="12"/>
 
-		<osm-tag key="historic" value="ruins" zoom-appear="17" />
-		<osm-tag key="historic" value="castle" zoom-appear="15" />
+		<osm-tag key="historic" value="ruins" zoom-appear="12" />
+		<osm-tag key="historic" value="castle" zoom-appear="12" />
 
 		<osm-tag key="man_made" value="pier" zoom-appear="15" />
-		<osm-tag key="man_made" value="tower" zoom-appear="17" />
-		<osm-tag key="tower:type" value="communication" zoom-appear="17" />
-		<osm-tag key="tower:type" value="observation" zoom-appear="17" />
+		<osm-tag key="man_made" value="tower" zoom-appear="15" />
+		<osm-tag key="tower:type" value="communication" zoom-appear="15" />
+		<osm-tag key="tower:type" value="observation" zoom-appear="15" />
 		
 		<osm-tag key="power" value="line" zoom-appear="10" />
 
@@ -778,6 +783,7 @@
 		<osm-tag key="tracktype" value="grade3" renderable="false" />
 		<osm-tag key="tracktype" value="grade4" renderable="false" />
 		<osm-tag key="tracktype" value="grade5" renderable="false" />
+		<osm-tag key="tracktype" value="void" renderable="false" />
 
 		<osm-tag key="tunnel" value="yes" renderable="false" />
 		<osm-tag key="tunnel" value="no" renderable="false" />
