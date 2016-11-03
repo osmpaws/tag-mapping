@@ -750,7 +750,11 @@
 
 		<osm-tag key="place" value="locality" zoom-appear="17" />
 		
-		<osm-tag key="area" value="yes" zoom-appear="12" />
+		<osm-tag key="area" value="yes" zoom-appear="12" />		
+		
+		<osm-tag key="religion" value="christian" renderable="false" />
+		<osm-tag key="religion" value="jewish" renderable="false" />
+		<osm-tag key="religion" value="muslim" renderable="false" />
 	</ways>
 
 	<!-- NOT TO RENDER -->
