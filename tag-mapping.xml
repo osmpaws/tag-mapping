@@ -16,8 +16,10 @@
 	<pois>
 		<osm-tag key="amenity" value="atm" zoom-appear="17" />
 		<osm-tag key="amenity" value="bank" zoom-appear="17" />
+		<osm-tag key="amenity" value="bar" zoom-appear="17" />
 		<osm-tag key="amenity" value="bench" zoom-appear="17" />
 		<osm-tag key="amenity" value="bicycle_rental" zoom-appear="17" />
+		<osm-tag key="amenity" value="bicycle_parking" zoom-appear="17" />
 		<osm-tag key="amenity" value="bus_station" zoom-appear="15" />
 		<osm-tag key="amenity" value="cafe" zoom-appear="17" />
 		<osm-tag key="amenity" value="cinema" zoom-appear="17" />		
@@ -100,6 +102,8 @@
 		<osm-tag key="historic" value="ruins" zoom-appear="12" />
 		<osm-tag key="historic" value="castle" zoom-appear="12" />
 		<osm-tag key="historic" value="archaeological_site" zoom-appear="16" />
+		<osm-tag key="ruins" value="yes" zoom-appear="12" />
+		<osm-tag key="ruins" value="castle" zoom-appear="12" />
 	</pois>
 
 	<!-- PLACES TAGS -->
@@ -202,249 +206,299 @@
 	</ways>
 	<!-- KCT TRACKS -->
 	<ways>
-		<osm-tag key="route" value="hiking" zoom-appear="10" />
-		<osm-tag key="route" value="foot" zoom-appear="10" />
-		<osm-tag key="route" value="ski" zoom-appear="10" />
-		<osm-tag key="route" value="horse" zoom-appear="10" />
-		<osm-tag key="route" value="wheelchair" zoom-appear="10" />
+		<osm-tag key="route" value="hiking" renderable="false" />
+		<osm-tag key="route" value="foot" renderable="false" />
+		<osm-tag key="route" value="ski" renderable="false" />
+		<osm-tag key="route" value="horse" renderable="false" />
+		<osm-tag key="route" value="wheelchair" renderable="false" />
 		
-		<osm-tag key="kct_red" value="major" zoom-appear="10" />
-		<osm-tag key="kct_red" value="local" zoom-appear="10" />
-		<osm-tag key="kct_red" value="learning" zoom-appear="10" />
-		<osm-tag key="kct_red" value="ruin" zoom-appear="10" />
-		<osm-tag key="kct_red" value="peak" zoom-appear="10" />
-		<osm-tag key="kct_red" value="spring" zoom-appear="10" />
-		<osm-tag key="kct_red" value="interesting_object" zoom-appear="10" />
-		<osm-tag key="kct_red" value="horse" zoom-appear="10" />
-		<osm-tag key="kct_red" value="ski" zoom-appear="10" />
-		<osm-tag key="kct_red" value="bicycle" zoom-appear="10" />
-		<osm-tag key="kct_red" value="wheelchair" zoom-appear="10" />
+		<osm-tag key="kct_red" value="major" renderable="false" />
+		<osm-tag key="kct_red" value="local" renderable="false" />
+		<osm-tag key="kct_red" value="learning" renderable="false" />
+		<osm-tag key="kct_red" value="ruin" renderable="false" />
+		<osm-tag key="kct_red" value="peak" renderable="false" />
+		<osm-tag key="kct_red" value="spring" renderable="false" />
+		<osm-tag key="kct_red" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_red" value="horse" renderable="false" />
+		<osm-tag key="kct_red" value="ski" renderable="false" />
+		<osm-tag key="kct_red" value="bicycle" renderable="false" />
+		<osm-tag key="kct_red" value="wheelchair" renderable="false" />
 
-		<osm-tag key="kct_blue" value="major" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="local" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="learning" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="ruin" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="peak" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="spring" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="interesting_object" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="horse" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="ski" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="bicycle" zoom-appear="10" />
-		<osm-tag key="kct_blue" value="wheelchair" zoom-appear="10" />
+		<osm-tag key="kct_blue" value="major" renderable="false" />
+		<osm-tag key="kct_blue" value="local" renderable="false" />
+		<osm-tag key="kct_blue" value="learning" renderable="false" />
+		<osm-tag key="kct_blue" value="ruin" renderable="false" />
+		<osm-tag key="kct_blue" value="peak" renderable="false" />
+		<osm-tag key="kct_blue" value="spring" renderable="false" />
+		<osm-tag key="kct_blue" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_blue" value="horse" renderable="false" />
+		<osm-tag key="kct_blue" value="ski" renderable="false" />
+		<osm-tag key="kct_blue" value="bicycle" renderable="false" />
+		<osm-tag key="kct_blue" value="wheelchair" renderable="false" />
 
-		<osm-tag key="kct_yellow" value="major" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="local" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="learning" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="ruin" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="peak" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="spring" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="interesting_object" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="horse" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="ski" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="bicycle" zoom-appear="10" />
-		<osm-tag key="kct_yellow" value="wheelchair" zoom-appear="10" />
+		<osm-tag key="kct_yellow" value="major" renderable="false" />
+		<osm-tag key="kct_yellow" value="local" renderable="false" />
+		<osm-tag key="kct_yellow" value="learning" renderable="false" />
+		<osm-tag key="kct_yellow" value="ruin" renderable="false" />
+		<osm-tag key="kct_yellow" value="peak" renderable="false" />
+		<osm-tag key="kct_yellow" value="spring" renderable="false" />
+		<osm-tag key="kct_yellow" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_yellow" value="horse" renderable="false" />
+		<osm-tag key="kct_yellow" value="ski" renderable="false" />
+		<osm-tag key="kct_yellow" value="bicycle" renderable="false" />
+		<osm-tag key="kct_yellow" value="wheelchair" renderable="false" />
 
-		<osm-tag key="kct_green" value="major" zoom-appear="10" />
-		<osm-tag key="kct_green" value="local" zoom-appear="10" />
-		<osm-tag key="kct_green" value="learning" zoom-appear="10" />
-		<osm-tag key="kct_green" value="ruin" zoom-appear="10" />
-		<osm-tag key="kct_green" value="peak" zoom-appear="10" />
-		<osm-tag key="kct_green" value="spring" zoom-appear="10" />
-		<osm-tag key="kct_green" value="interesting_object" zoom-appear="10" />
-		<osm-tag key="kct_green" value="horse" zoom-appear="10" />
-		<osm-tag key="kct_green" value="ski" zoom-appear="10" />
-		<osm-tag key="kct_green" value="bicycle" zoom-appear="10" />
-		<osm-tag key="kct_green" value="wheelchair" zoom-appear="10" />
+		<osm-tag key="kct_green" value="major" renderable="false" />
+		<osm-tag key="kct_green" value="local" renderable="false" />
+		<osm-tag key="kct_green" value="learning" renderable="false" />
+		<osm-tag key="kct_green" value="ruin" renderable="false" />
+		<osm-tag key="kct_green" value="peak" renderable="false" />
+		<osm-tag key="kct_green" value="spring" renderable="false" />
+		<osm-tag key="kct_green" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_green" value="horse" renderable="false" />
+		<osm-tag key="kct_green" value="ski" renderable="false" />
+		<osm-tag key="kct_green" value="bicycle" renderable="false" />
+		<osm-tag key="kct_green" value="wheelchair" renderable="false" />
 		
-		<osm-tag key="kct_none" value="local" zoom-appear="10" />
-		<osm-tag key="kct_none" value="yes" zoom-appear="10" />
-		<osm-tag key="kct_none" value="learning" zoom-appear="10" />
-		<osm-tag key="kct_none" value="wheelchair" zoom-appear="10" />
+		<osm-tag key="kct_none" value="local" renderable="false" />
+		<osm-tag key="kct_none" value="yes" renderable="false" />
+		<osm-tag key="kct_none" value="learning" renderable="false" />
+		<osm-tag key="kct_none" value="wheelchair" renderable="false" />
 		
-		<osm-tag key="kct_white" value="yes" zoom-appear="10" />
-		<osm-tag key="kct_white" value="ski" zoom-appear="10" />
-		<osm-tag key="kct_white" value="bicycle" zoom-appear="10" />
-		<osm-tag key="kct_white" value="learning" zoom-appear="10" />
+		<osm-tag key="kct_white" value="yes" renderable="false" />
+		<osm-tag key="kct_white" value="ski" renderable="false" />
+		<osm-tag key="kct_white" value="bicycle" renderable="false" />
+		<osm-tag key="kct_white" value="learning" renderable="false" />
 		
-		<osm-tag key="kct_black" value="local" zoom-appear="10" />
+		<osm-tag key="kct_black" value="local" renderable="false" />
 		
-		<osm-tag key="kct_purple" value="local" zoom-appear="10" />
+		<osm-tag key="kct_purple" value="local" renderable="false" />
 		
-		<osm-tag key="kct_orange" value="local" zoom-appear="10" />
+		<osm-tag key="kct_orange" value="local" renderable="false" />
 		
-		<osm-tag key="osmc" value="yes" zoom-appear="10" />
-		<osm-tag key="osmc_color" value="blue" zoom-appear="10" />
-  		<osm-tag key="osmc_color" value="yellow" zoom-appear="10" />
- 		<osm-tag key="osmc_color" value="green" zoom-appear="10" />
- 		<osm-tag key="osmc_color" value="red" zoom-appear="10" />
-  		<osm-tag key="osmc_color" value="black" zoom-appear="10" />
-  		<osm-tag key="osmc_color" value="white" zoom-appear="10" />
+		<osm-tag key="osmc" value="yes" renderable="false" />
+  		<osm-tag key="osmc_color" value="black" renderable="false" />
+		<osm-tag key="osmc_color" value="blue" renderable="false" />
+  		<osm-tag key="osmc_color" value="brown" renderable="false" />
+ 		<osm-tag key="osmc_color" value="green" renderable="false" />
+ 		<osm-tag key="osmc_color" value="orange" renderable="false" />
+ 		<osm-tag key="osmc_color" value="purple" renderable="false" />
+ 		<osm-tag key="osmc_color" value="red" renderable="false" />
+  		<osm-tag key="osmc_color" value="white" renderable="false" />
+  		<osm-tag key="osmc_color" value="yellow" renderable="false" />
   		<osm-tag key="network" value="iwn" zoom-appear="8" />
   		<osm-tag key="network" value="nwn" zoom-appear="9" />     
-  		<osm-tag key="network" value="rwn" zoom-appear="10" />
+  		<osm-tag key="network" value="rwn" zoom-appear="12" />
   		<osm-tag key="network" value="lwn" zoom-appear="12" />
  		<osm-tag key="state" value="proposed" zoom-appear="12" />
 		
-		<osm-tag key="route" value="bicycle" zoom-appear="10" />
-		<osm-tag key="route" value="mtb" zoom-appear="10" />
-                <osm-tag key="network" value="ncn" zoom-appear="10" />   
-                <osm-tag key="network" value="rcn" zoom-appear="10" />
-                <osm-tag key="network" value="lcn" zoom-appear="10" /> 
-                <osm-tag key="network" value="icn" zoom-appear="10" /> 
-                
-                <osm-tag key="marking_poles" value="yes" zoom-appear="14" />           
+		<osm-tag key="route" value="bicycle" renderable="false" />
+		<osm-tag key="route" value="mtb" renderable="false" />
+                <osm-tag key="network" value="ncn" zoom-appear="9" />   
+                <osm-tag key="network" value="rcn" zoom-appear="12" />
+                <osm-tag key="network" value="lcn" zoom-appear="12" /> 
+                <osm-tag key="network" value="icn" zoom-appear="8" />
         </ways>
         
         <!-- OSMC background -->
 	<ways>   
 		<osm-tag key="osmc_background" value="black" renderable="false" />
-		<osm-tag key="osmc_background" value="white" renderable="false" />
-		<osm-tag key="osmc_background" value="blue" renderable="false" />
-		<osm-tag key="osmc_background" value="yellow" renderable="false" />
-		<osm-tag key="osmc_background" value="green" renderable="false" />
-		<osm-tag key="osmc_background" value="red" renderable="false" />
-		<osm-tag key="osmc_background" value="purple_bcg" renderable="false" />
-		<osm-tag key="osmc_background" value="brown" renderable="false" />
-		<osm-tag key="osmc_background" value="orange" renderable="false" />
-		<osm-tag key="osmc_background" value="blue_round" renderable="false" />
-		<osm-tag key="osmc_background" value="green_round" renderable="false" />
-		<osm-tag key="osmc_background" value="red_round" renderable="false" />
-		<osm-tag key="osmc_background" value="white_round" renderable="false" />
 		<osm-tag key="osmc_background" value="black_circle" renderable="false" />
+		<osm-tag key="osmc_background" value="blue" renderable="false" />
 		<osm-tag key="osmc_background" value="blue_circle" renderable="false" />
-		<osm-tag key="osmc_background" value="yellow_circle" renderable="false" />
-		<osm-tag key="osmc_background" value="red_circle" renderable="false" />
-		<osm-tag key="osmc_background" value="white_circle" renderable="false" />
-		<osm-tag key="osmc_background" value="yellow_frame" renderable="false" />
+		<osm-tag key="osmc_background" value="blue_round" renderable="false" />
+		<osm-tag key="osmc_background" value="brown" renderable="false" />
+		<osm-tag key="osmc_background" value="green" renderable="false" />
+		<osm-tag key="osmc_background" value="green_round" renderable="false" />
+		<osm-tag key="osmc_background" value="green_circle" renderable="false" />
 		<osm-tag key="osmc_background" value="green_frame" renderable="false" />
+		<osm-tag key="osmc_background" value="orange" renderable="false" />
+		<osm-tag key="osmc_background" value="orange_circle" renderable="false" />
+		<osm-tag key="osmc_background" value="purple" renderable="false" />
+		<osm-tag key="osmc_background" value="purple_bcg" renderable="false" />
+		<osm-tag key="osmc_background" value="red" renderable="false" />
+		<osm-tag key="osmc_background" value="red_round" renderable="false" />
+		<osm-tag key="osmc_background" value="red_circle" renderable="false" />
 		<osm-tag key="osmc_background" value="red_frame" renderable="false" />
+		<osm-tag key="osmc_background" value="white" renderable="false" />
+		<osm-tag key="osmc_background" value="white_round" renderable="false" />
+		<osm-tag key="osmc_background" value="white_circle" renderable="false" />
+		<osm-tag key="osmc_background" value="yellow" renderable="false" />
+		<osm-tag key="osmc_background" value="yellow_circle" renderable="false" />
+		<osm-tag key="osmc_background" value="yellow_frame" renderable="false" />
 	</ways>
 	 
 	<!-- OSMC foreground -->
 	<ways>
-		<osm-tag key="osmc_foreground" value="blue_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_bowl" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_circle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_bar" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_stripe" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_cross" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_x" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_slash" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_triangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_triangle_turned" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_rectangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_pointer" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_fork" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_turned_T" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_L" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_lower" renderable="false" />
-		<osm-tag key="osmc_foreground" value="blue_corner" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_bowl" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_circle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_bar" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_stripe" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_cross" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_x" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_slash" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_backslash" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_triangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_pointer" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_rectangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_fork" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_turned_T" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_L" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_lower" renderable="false" />
-		<osm-tag key="osmc_foreground" value="yellow_corner" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_circle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_bar" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_stripe" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_cross" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_x" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_slash" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_triangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_triangle_turned" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_pointer" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_crest" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_rectangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_fork" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_turned_T" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_L" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_arch" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_drop_line" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_drop" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_lower" renderable="false" />
-		<osm-tag key="osmc_foreground" value="red_corner" renderable="false" />   
-		<osm-tag key="osmc_foreground" value="green_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_bowl" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_circle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_bar" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_stripe" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_cross" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_x" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_backslash" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_slash" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_rectangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_triangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_triangle_turned" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_pointer" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_fork" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_turned_T" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_L" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_drop_line" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_corner" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_lower" renderable="false" />
-		<osm-tag key="osmc_foreground" value="green_horse" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="ammonit" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_arch" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_backslash" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_bar" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_cross" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_bowl" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_corner" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_crest" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_triangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_cross" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_diamond_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_dot" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_fork" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_horse" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_arch" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_lower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_rectangle" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_rectangle_line" renderable="false" />
-		<osm-tag key="osmc_foreground" value="black_triangle_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_red_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_circle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_cross" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_stripe" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_x" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_triangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_rectangle_line" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_rectangle" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_triangle_line" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_diamond_line" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_arch" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_corner" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_lower" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_bar" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_turned_T" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_red_diamond" renderable="false" />
-		<osm-tag key="osmc_foreground" value="white_hiker" renderable="false" />
-		<osm-tag key="osmc_foreground" value="shell_modern" renderable="false" />
-		<osm-tag key="osmc_foreground" value="shell" renderable="false" />
-		<osm-tag key="osmc_foreground" value="ammonit" renderable="false" />
-		<osm-tag key="osmc_foreground" value="mine" renderable="false" />
-		<osm-tag key="osmc_foreground" value="hiker" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_slash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_wheelchair" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_x" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_arch" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_backslash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_bar" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_bowl" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_cross" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_diamond" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_diamond_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_lower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_rectangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_slash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_triangle_turned" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_wheelchair" renderable="false" />
+		<osm-tag key="osmc_foreground" value="blue_x" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_arch" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_backslash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_bar" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_bowl" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_cross" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_diamond" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_diamond_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_drop_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_horse" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_lower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_rectangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_slash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_triangle_turned" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_x" renderable="false" />
+		<osm-tag key="osmc_foreground" value="green_wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="heart" renderable="false" />
-		<osm-tag key="osmc_foreground" value="tower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="hiker" renderable="false" />
+		<osm-tag key="osmc_foreground" value="mine" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_bar" renderable="false" />
 		<osm-tag key="osmc_foreground" value="orange_dot" renderable="false" />
-		<osm-tag key="osmc_foreground" value="orange_corner" renderable="false" />		
+		<osm-tag key="osmc_foreground" value="orange_corner" renderable="false" />
 		<osm-tag key="osmc_foreground" value="purple_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_arch" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_backslash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_bar" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_bowl" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_corner" renderable="false" />   
+		<osm-tag key="osmc_foreground" value="red_crest" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_cross" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_diamond" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_diamond_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_drop" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_drop_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_lower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_rectangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_slash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_triangle_turned" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_wheel" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_wheelchair" renderable="false" />
+		<osm-tag key="osmc_foreground" value="red_x" renderable="false" />
+		<osm-tag key="osmc_foreground" value="shell" renderable="false" />
+		<osm-tag key="osmc_foreground" value="shell_modern" renderable="false" />
+		<osm-tag key="osmc_foreground" value="tower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_arch" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_backslash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_bar" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_bowl" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_cross" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_diamond" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_diamond_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_hiker" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_lower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_rectangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_red_diamond" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_slash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_x" renderable="false" />
+		<osm-tag key="osmc_foreground" value="white_wheelchair" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_arch" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_backslash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_bar" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_bowl" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_circle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_corner" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_cross" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_diamond" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_diamond_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_dot" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_fork" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_L" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_lower" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_pointer" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_rectangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_rectangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_right" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_slash" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_stripe" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_triangle" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_triangle_line" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_x" renderable="false" />
+		<osm-tag key="osmc_foreground" value="yellow_wheelchair" renderable="false" />
 	</ways>       
         
         <!-- Elevation TAGS -->
@@ -588,6 +642,7 @@
 
 	<!-- PUBLIC AMENITIES -->
 	<ways>
+		<osm-tag key="amenity" value="bicycle_parking" zoom-appear="17" />
 		<osm-tag key="amenity" value="college" zoom-appear="13" />
 		<osm-tag key="amenity" value="embassy" zoom-appear="13" />
 		<osm-tag key="amenity" value="fountain" zoom-appear="16" />
@@ -600,9 +655,11 @@
 		<osm-tag key="amenity" value="university" zoom-appear="13" />
 		<osm-tag key="amenity" value="place_of_worship" zoom-appear="17" />
 
-		<osm-tag key="tourism" value="attraction" zoom-appear="14" />
-		<osm-tag key="tourism" value="hostel" zoom-appear="15" />
 		<osm-tag key="tourism" value="alpine_hut" zoom-appear="15" />
+		<osm-tag key="tourism" value="attraction" zoom-appear="14" />
+		<osm-tag key="tourism" value="camp_site" zoom-appear="15" />
+		<osm-tag key="tourism" value="hostel" zoom-appear="15" />
+		<osm-tag key="tourism" value="picnic_site" zoom-appear="15" />
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 	</ways>
 
@@ -610,6 +667,7 @@
 	<ways>
 		<osm-tag key="route" value="ferry" zoom-appear="12" />
 		<osm-tag key="railway" value="abandoned" zoom-appear="14" />
+		<osm-tag key="railway" value="funicular" zoom-appear="15" />
 		<osm-tag key="railway" value="preserved" zoom-appear="14" />
 		<osm-tag key="railway" value="light_rail" zoom-appear="12" />
 		<osm-tag key="railway" value="narrow_gauge" zoom-appear="14" />
@@ -734,7 +792,9 @@
 
 		<osm-tag key="historic" value="ruins" zoom-appear="12" />
 		<osm-tag key="historic" value="castle" zoom-appear="12" />
-
+		<osm-tag key="ruins" value="yes" zoom-appear="12" />
+		<osm-tag key="ruins" value="castle" zoom-appear="12" />
+		
 		<osm-tag key="man_made" value="pier" zoom-appear="15" />
 		<osm-tag key="man_made" value="tower" zoom-appear="15" />
 		<osm-tag key="tower:type" value="communication" zoom-appear="15" />
@@ -770,7 +830,7 @@
 
 		<osm-tag key="oneway" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="oneway" value="-1" renderable="false" />
-		<osm-tag key="oneway" value="no" equivalent-values="0,false" renderable="false" />
+		<osm-tag key="oneway" value="no" equivalent-values="0,false" renderable="false"  enabled="false"/>
 
 		<osm-tag key="piste:difficulty" value="novice" renderable="false" />
 		<osm-tag key="piste:difficulty" value="easy" renderable="false" />
