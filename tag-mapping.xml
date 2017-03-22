@@ -148,7 +148,8 @@
 
 		<osm-tag key="power" value="generator" zoom-appear="17" />
 		<osm-tag key="power" value="tower" zoom-appear="17" />
-		<osm-tag key="generator:source" value="wind" zoom-appear="17" />
+		<osm-tag key="generator:source" value="wind" zoom-appear="17" />		
+		<osm-tag key="generator:source" value="solar" zoom-appear="17" />
 		
 		<osm-tag key="place" value="locality" zoom-appear="14" />
 	</pois>
@@ -627,6 +628,7 @@
 		<osm-tag key="leisure" value="park" zoom-appear="10" />
 		<osm-tag key="leisure" value="pitch" zoom-appear="12" />
 		<osm-tag key="leisure" value="playground" zoom-appear="12" />
+		<osm-tag key="leisure" value="recreation_ground" zoom-appear="12" />
 		<osm-tag key="leisure" value="sports_centre" zoom-appear="12" />
 		<osm-tag key="leisure" value="stadium" zoom-appear="10" />
 		<osm-tag key="leisure" value="track" zoom-appear="12" />
@@ -644,10 +646,13 @@
 	<ways>
 		<osm-tag key="amenity" value="bicycle_parking" zoom-appear="17" />
 		<osm-tag key="amenity" value="college" zoom-appear="13" />
+		<osm-tag key="amenity" value="dormitory" zoom-appear="13" />
 		<osm-tag key="amenity" value="embassy" zoom-appear="13" />
+		<osm-tag key="amenity" value="fire_station" zoom-appear="14" />
 		<osm-tag key="amenity" value="fountain" zoom-appear="16" />
 		<osm-tag key="amenity" value="grave_yard" zoom-appear="13" />
 		<osm-tag key="amenity" value="hospital" zoom-appear="13" />
+		<osm-tag key="amenity" value="kindergarten" zoom-appear="14" />
 		<osm-tag key="amenity" value="parking" zoom-appear="14" />
 		<osm-tag key="amenity" value="school" zoom-appear="14" />
 		<osm-tag key="amenity" value="theatre" zoom-appear="14" />
@@ -801,6 +806,9 @@
 		<osm-tag key="tower:type" value="observation" zoom-appear="15" />
 		
 		<osm-tag key="power" value="line" zoom-appear="10" />
+		<osm-tag key="power" value="generator" zoom-appear="14" />
+		<osm-tag key="generator:source" value="solar" renderable="false" />
+		<osm-tag key="generator:method" value="photovoltaic" renderable="false" />
 
 		<osm-tag key="military" value="airfield" zoom-appear="12" />
 		<osm-tag key="military" value="barracks" zoom-appear="12" />
