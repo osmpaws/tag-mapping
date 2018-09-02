@@ -613,20 +613,38 @@
   		<osm-tag key="osmc_color" value="white" renderable="false" />
   		<osm-tag key="osmc_color" value="yellow" renderable="false" />
   		<osm-tag key="network" value="iwn" zoom-appear="8" />
-  		<osm-tag key="network" value="nwn" zoom-appear="9" />     
+  		<osm-tag key="network" value="nwn" zoom-appear="9" />
   		<osm-tag key="network" value="rwn" zoom-appear="12" />
   		<osm-tag key="network" value="lwn" zoom-appear="12" />
  		<osm-tag key="state" value="proposed" zoom-appear="12" />
 		
 		<osm-tag key="route" value="bicycle" renderable="false" />
 		<osm-tag key="route" value="mtb" renderable="false" />
-                <osm-tag key="network" value="ncn" zoom-appear="9" />   
-                <osm-tag key="network" value="rcn" zoom-appear="12" />
-                <osm-tag key="network" value="lcn" zoom-appear="12" /> 
-                <osm-tag key="network" value="icn" zoom-appear="8" />
-        </ways>
-        
-        <!-- OSMC background -->
+		<osm-tag key="network" value="ncn" zoom-appear="9" />
+		<osm-tag key="network" value="rcn" zoom-appear="12" />
+		<osm-tag key="network" value="lcn" zoom-appear="12" />
+		<osm-tag key="network" value="icn" zoom-appear="8" />
+  		<osm-tag key="mtb:scale" value="0" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="1" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="2" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="3" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="4" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="5" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="6" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:imba" value="0" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:imba" value="1" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:imba" value="2" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:imba" value="3" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:imba" value="4" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:uphill" value="0" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:uphill" value="1" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:uphill" value="2" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:uphill" value="3" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:uphill" value="4" zoom-appear="14" />
+  		<osm-tag key="mtb:scale:uphill" value="5" zoom-appear="14" />
+	</ways>
+
+	<!-- OSMC background -->
 	<ways>
 		<osm-tag key="osmc_background" value="black" renderable="false" />
 		<osm-tag key="osmc_background" value="black_circle" renderable="false" />
