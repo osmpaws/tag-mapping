@@ -627,10 +627,18 @@
 		<osm-tag key="network" value="rcn" zoom-appear="12" />
 		<osm-tag key="network" value="lcn" zoom-appear="12" />
 		<osm-tag key="network" value="icn" zoom-appear="8" />
+  		<osm-tag key="mtb:scale" value="0-" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="0" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="0+" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="1-" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="1" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="1+" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="2-" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="2" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="2+" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="3-" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="3" zoom-appear="14" />
+  		<osm-tag key="mtb:scale" value="3+" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="4" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="5" zoom-appear="14" />
   		<osm-tag key="mtb:scale" value="6" zoom-appear="14" />
