@@ -135,7 +135,7 @@
 		<osm-tag key="natural" value="stone" zoom-appear="14" />
 		<osm-tag key="natural" value="tree" zoom-appear="16" />
 		<osm-tag key="natural" value="volcano" zoom-appear="12" />
-				
+
 		<osm-tag key="waterway" value="weir" zoom-appear="15" />
 	</pois>
 
@@ -533,6 +533,7 @@
 		<osm-tag key="junction" value="roundabout" renderable="false" />
 		<osm-tag key="incline" value="up" renderable="false" />
 		<osm-tag key="incline" value="down" renderable="false" />
+		<osm-tag key="surface" value="gravel" renderable="false" equivalent-values="concrete:lanes,concrete:plates,sett,unhewn_cobblestone,cobblestone,wood,sand,grass_paver,mud,woodchips" />
 	</ways>
 	<!-- KCT TRACKS -->
 	<ways>
@@ -1295,7 +1296,7 @@
 
 		<osm-tag key="oneway" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="oneway" value="-1" renderable="false" />
-		<osm-tag key="oneway" value="no" equivalent-values="0,false" renderable="false"  enabled="false"/>
+		<osm-tag key="oneway" value="no" equivalent-values="0,false" renderable="false" enabled="false"/>
 
 		<osm-tag key="piste:difficulty" value="novice" renderable="false" />
 		<osm-tag key="piste:difficulty" value="easy" renderable="false" />
