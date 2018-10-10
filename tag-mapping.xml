@@ -538,6 +538,69 @@
 	</ways>
 	<!-- KCT TRACKS -->
 	<ways>
+		<osm-tag key="kct_red" value="major" renderable="false" />
+		<osm-tag key="kct_red" value="local" renderable="false" />
+		<osm-tag key="kct_red" value="learning" renderable="false" />
+		<osm-tag key="kct_red" value="ruin" renderable="false" />
+		<osm-tag key="kct_red" value="peak" renderable="false" />
+		<osm-tag key="kct_red" value="spring" renderable="false" />
+		<osm-tag key="kct_red" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_red" value="horse" renderable="false" />
+		<osm-tag key="kct_red" value="ski" renderable="false" />
+		<osm-tag key="kct_red" value="bicycle" renderable="false" />
+		<osm-tag key="kct_red" value="wheelchair" renderable="false" />
+
+		<osm-tag key="kct_blue" value="major" renderable="false" />
+		<osm-tag key="kct_blue" value="local" renderable="false" />
+		<osm-tag key="kct_blue" value="learning" renderable="false" />
+		<osm-tag key="kct_blue" value="ruin" renderable="false" />
+		<osm-tag key="kct_blue" value="peak" renderable="false" />
+		<osm-tag key="kct_blue" value="spring" renderable="false" />
+		<osm-tag key="kct_blue" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_blue" value="horse" renderable="false" />
+		<osm-tag key="kct_blue" value="ski" renderable="false" />
+		<osm-tag key="kct_blue" value="bicycle" renderable="false" />
+		<osm-tag key="kct_blue" value="wheelchair" renderable="false" />
+
+		<osm-tag key="kct_yellow" value="major" renderable="false" />
+		<osm-tag key="kct_yellow" value="local" renderable="false" />
+		<osm-tag key="kct_yellow" value="learning" renderable="false" />
+		<osm-tag key="kct_yellow" value="ruin" renderable="false" />
+		<osm-tag key="kct_yellow" value="peak" renderable="false" />
+		<osm-tag key="kct_yellow" value="spring" renderable="false" />
+		<osm-tag key="kct_yellow" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_yellow" value="horse" renderable="false" />
+		<osm-tag key="kct_yellow" value="ski" renderable="false" />
+		<osm-tag key="kct_yellow" value="bicycle" renderable="false" />
+		<osm-tag key="kct_yellow" value="wheelchair" renderable="false" />
+
+		<osm-tag key="kct_green" value="major" renderable="false" />
+		<osm-tag key="kct_green" value="local" renderable="false" />
+		<osm-tag key="kct_green" value="learning" renderable="false" />
+		<osm-tag key="kct_green" value="ruin" renderable="false" />
+		<osm-tag key="kct_green" value="peak" renderable="false" />
+		<osm-tag key="kct_green" value="spring" renderable="false" />
+		<osm-tag key="kct_green" value="interesting_object" renderable="false" />
+		<osm-tag key="kct_green" value="horse" renderable="false" />
+		<osm-tag key="kct_green" value="ski" renderable="false" />
+		<osm-tag key="kct_green" value="bicycle" renderable="false" />
+		<osm-tag key="kct_green" value="wheelchair" renderable="false" />
+		
+		<osm-tag key="kct_none" value="local" renderable="false" />
+		<osm-tag key="kct_none" value="yes" renderable="false" />
+		<osm-tag key="kct_none" value="learning" renderable="false" />
+		<osm-tag key="kct_none" value="wheelchair" renderable="false" />
+		
+		<osm-tag key="kct_white" value="yes" renderable="false" />
+		<osm-tag key="kct_white" value="ski" renderable="false" />
+		<osm-tag key="kct_white" value="bicycle" renderable="false" />
+		<osm-tag key="kct_white" value="learning" renderable="false" />
+		
+		<osm-tag key="kct_black" value="local" renderable="false" />
+		
+		<osm-tag key="kct_purple" value="local" renderable="false" />
+		
+		<osm-tag key="kct_orange" value="local" renderable="false" />
 		<osm-tag key="route" value="hiking" renderable="false" />
 		<osm-tag key="route" value="foot" renderable="false" />
 		<osm-tag key="route" value="ski" renderable="false" />
@@ -545,20 +608,20 @@
 		<osm-tag key="route" value="wheelchair" renderable="false" />
 		
 		<osm-tag key="osmc" value="yes" renderable="false" />
-  		<osm-tag key="osmc_color" value="black" renderable="false" />
+		<osm-tag key="osmc_color" value="black" renderable="false" />
 		<osm-tag key="osmc_color" value="blue" renderable="false" />
-  		<osm-tag key="osmc_color" value="brown" renderable="false" />
- 		<osm-tag key="osmc_color" value="green" renderable="false" />
- 		<osm-tag key="osmc_color" value="orange" renderable="false" />
- 		<osm-tag key="osmc_color" value="purple" renderable="false" />
- 		<osm-tag key="osmc_color" value="red" renderable="false" />
-  		<osm-tag key="osmc_color" value="white" renderable="false" />
-  		<osm-tag key="osmc_color" value="yellow" renderable="false" />
-  		<osm-tag key="network" value="iwn" zoom-appear="8" />
-  		<osm-tag key="network" value="nwn" zoom-appear="9" />
-  		<osm-tag key="network" value="rwn" zoom-appear="12" />
-  		<osm-tag key="network" value="lwn" zoom-appear="12" />
- 		<osm-tag key="state" value="proposed" zoom-appear="12" />
+		<osm-tag key="osmc_color" value="brown" renderable="false" />
+		<osm-tag key="osmc_color" value="green" renderable="false" />
+		<osm-tag key="osmc_color" value="orange" renderable="false" />
+		<osm-tag key="osmc_color" value="purple" renderable="false" />
+		<osm-tag key="osmc_color" value="red" renderable="false" />
+		<osm-tag key="osmc_color" value="white" renderable="false" />
+		<osm-tag key="osmc_color" value="yellow" renderable="false" />
+		<osm-tag key="network" value="iwn" zoom-appear="8" />
+		<osm-tag key="network" value="nwn" zoom-appear="9" />
+		<osm-tag key="network" value="rwn" zoom-appear="12" />
+		<osm-tag key="network" value="lwn" zoom-appear="12" />
+		<osm-tag key="state" value="proposed" zoom-appear="12" />
 		
 		<osm-tag key="route" value="bicycle" renderable="false" />
 		<osm-tag key="route" value="mtb" renderable="false" />
@@ -566,32 +629,32 @@
 		<osm-tag key="network" value="rcn" zoom-appear="12" />
 		<osm-tag key="network" value="lcn" zoom-appear="12" />
 		<osm-tag key="network" value="icn" zoom-appear="8" />
-  		<osm-tag key="mtb:scale" value="0-" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="0" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="0+" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="1-" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="1" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="1+" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="2-" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="2" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="2+" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="3-" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="3" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="3+" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="4" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="5" zoom-appear="14" />
-  		<osm-tag key="mtb:scale" value="6" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:imba" value="0" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:imba" value="1" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:imba" value="2" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:imba" value="3" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:imba" value="4" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:uphill" value="0" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:uphill" value="1" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:uphill" value="2" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:uphill" value="3" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:uphill" value="4" zoom-appear="14" />
-  		<osm-tag key="mtb:scale:uphill" value="5" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="0-" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="0" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="0+" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="1-" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="1" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="1+" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="2-" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="2" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="2+" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="3-" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="3" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="3+" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="4" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="5" zoom-appear="14" />
+		<osm-tag key="mtb:scale" value="6" zoom-appear="14" />
+		<osm-tag key="mtb:scale:imba" value="0" zoom-appear="14" />
+		<osm-tag key="mtb:scale:imba" value="1" zoom-appear="14" />
+		<osm-tag key="mtb:scale:imba" value="2" zoom-appear="14" />
+		<osm-tag key="mtb:scale:imba" value="3" zoom-appear="14" />
+		<osm-tag key="mtb:scale:imba" value="4" zoom-appear="14" />
+		<osm-tag key="mtb:scale:uphill" value="0" zoom-appear="14" />
+		<osm-tag key="mtb:scale:uphill" value="1" zoom-appear="14" />
+		<osm-tag key="mtb:scale:uphill" value="2" zoom-appear="14" />
+		<osm-tag key="mtb:scale:uphill" value="3" zoom-appear="14" />
+		<osm-tag key="mtb:scale:uphill" value="4" zoom-appear="14" />
+		<osm-tag key="mtb:scale:uphill" value="5" zoom-appear="14" />
 	</ways>
 
 	<!-- OSMC background -->
