@@ -1287,15 +1287,15 @@
 	<ways>
 		<osm-tag key="access" value="destination" renderable="false" />
 		<osm-tag key="access" value="private" renderable="false" />
-		<osm-tag key="foot" value="no" renderable="false" />
-		<osm-tag key="bicycle" value="no" renderable="false" />
+		<osm-tag key="foot" value="no" zoom-appear="16" />
+		<osm-tag key="bicycle" value="no" zoom-appear="16" />
 		<osm-tag key="bicycle" value="designated" renderable="false" />
 		<osm-tag key="foot" value="designated" renderable="false" />
 
 		<osm-tag key="bridge" value="yes" renderable="false" />
 
-		<osm-tag key="oneway" value="yes" equivalent-values="1,true" renderable="false" />
-		<osm-tag key="oneway" value="-1" renderable="false" />
+		<osm-tag key="oneway" value="yes" equivalent-values="1,true" zoom-appear="16" />
+		<osm-tag key="oneway" value="-1" zoom-appear="16" />
 		<osm-tag key="oneway" value="no" equivalent-values="0,false" renderable="false" enabled="false"/>
 
 		<osm-tag key="piste:difficulty" value="novice" renderable="false" />
