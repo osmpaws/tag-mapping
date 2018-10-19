@@ -131,6 +131,7 @@
 		<osm-tag key="natural" value="cave_entrance" zoom-appear="14" />
 		<osm-tag key="natural" value="cliff" zoom-appear="14" />
 		<osm-tag key="natural" value="peak" zoom-appear="14" />
+		<osm-tag key="natural" value="rock" zoom-appear="14" />
 		<osm-tag key="natural" value="spring" zoom-appear="15" />
 		<osm-tag key="natural" value="stone" zoom-appear="14" />
 		<osm-tag key="natural" value="tree" zoom-appear="16" />
