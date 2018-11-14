@@ -54,10 +54,10 @@
 
 		<osm-tag key="emergency" value="phone" zoom-appear="16" />
 
-		<osm-tag key="leisure" value="marina" zoom-appear="13" />	
+		<osm-tag key="leisure" value="marina" zoom-appear="13" />
 		<osm-tag key="leisure" value="picnic_table" zoom-appear="16" />
 		<osm-tag key="leisure" value="playground" zoom-appear="17" />
-		<osm-tag key="leisure" value="slipway" zoom-appear="17" />	
+		<osm-tag key="leisure" value="slipway" zoom-appear="17" />
 		<osm-tag key="leisure" value="swimming_pool" zoom-appear="16" />
 
 		<osm-tag key="religion" value="christian" renderable="false" />
@@ -66,13 +66,14 @@
 
 		<osm-tag key="shop" value="bakery" zoom-appear="17" />
 		<osm-tag key="shop" value="butcher" zoom-appear="17" />
+		<osm-tag key="shop" value="bicycle" zoom-appear="17" />
 		<osm-tag key="shop" value="convenience" zoom-appear="17" />
+		<osm-tag key="shop" value="garden_centre" zoom-appear="17" />
 		<osm-tag key="shop" value="hairdresser" zoom-appear="17" />
 		<osm-tag key="shop" value="kiosk" zoom-appear="17" />
 		<osm-tag key="shop" value="organic" zoom-appear="17" />
 		<osm-tag key="shop" value="supermarket" zoom-appear="17" />
 		<osm-tag key="shop" value="sport" zoom-appear="17" />
-		<osm-tag key="shop" value="bicycle" zoom-appear="17" />
 	</pois>
 
 	<!-- PUBLIC TRANSPORT TAGS -->
@@ -102,6 +103,7 @@
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
 		<osm-tag key="tourism" value="alpine_hut" zoom-appear="14" />
 		<osm-tag key="tourism" value="camp_site" zoom-appear="14" />
+		<osm-tag key="tourism" value="theme_park" zoom-appear="15" />
 
 		<osm-tag key="historic" value="memorial" zoom-appear="16" />
 		<osm-tag key="historic" value="monument" zoom-appear="16" />
@@ -1119,7 +1121,10 @@
 		<osm-tag key="tourism" value="camp_site" zoom-appear="14" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="15" />
 		<osm-tag key="tourism" value="picnic_site" zoom-appear="15" />
+		<osm-tag key="tourism" value="theme_park" zoom-appear="15" />
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
+		
+		<osm-tag key="shop" value="garden_centre" zoom-appear="15" />
 	</ways>
 
 	<!-- PUBLIC TRANSPORT -->
@@ -1184,6 +1189,7 @@
 		<osm-tag key="building" value="shed" zoom-appear="15" />
 		<osm-tag key="building" value="school" zoom-appear="15" />
 		<osm-tag key="building" value="sports" zoom-appear="15" />
+		<osm-tag key="building" value="stadium" zoom-appear="15" />
 		<osm-tag key="building" value="station" zoom-appear="15" />
 		<osm-tag key="building" value="supermarket" zoom-appear="15" />
 		<osm-tag key="building" value="synagogue" zoom-appear="15" />
@@ -1295,7 +1301,7 @@
 		<osm-tag key="bicycle" value="designated" renderable="false" />
 		<osm-tag key="foot" value="designated" renderable="false" />
 
-		<osm-tag key="bridge" value="yes" renderable="false" />
+		<osm-tag key="bridge" value="yes" equivalent-values="viaduct" renderable="false" />
 
 		<osm-tag key="oneway" value="yes" equivalent-values="1,true" zoom-appear="16" />
 		<osm-tag key="oneway" value="-1" zoom-appear="16" />
@@ -1325,5 +1331,20 @@
 		<osm-tag key="wood" value="deciduous" renderable="false" />
 		<osm-tag key="wood" value="mixed" renderable="false" />
 		<osm-tag key="abandoned" value="yes" renderable="false"/>
+		
+		<osm-tag key="sac_scale" value="hiking" renderable="false"/>
+		<osm-tag key="sac_scale" value="mountain_hiking" renderable="false"/>
+		<osm-tag key="sac_scale" value="demanding_mountain_hiking" renderable="false"/>
+		<osm-tag key="sac_scale" value="alpine_hiking" renderable="false"/>
+		<osm-tag key="sac_scale" value="demanding_alpine_hiking" renderable="false"/>
+		<osm-tag key="sac_scale" value="difficult_alpine_hiking" renderable="false"/>
+		
+		<osm-tag key="trail_visibility" value="excellent" renderable="false"/>
+		<osm-tag key="trail_visibility" value="good" renderable="false"/>
+		<osm-tag key="trail_visibility" value="intermediate" renderable="false"/>
+		<osm-tag key="trail_visibility" value="bad" renderable="false"/>
+		<osm-tag key="trail_visibility" value="horrible" renderable="false"/>
+		<osm-tag key="trail_visibility" value="no" renderable="false"/>
+		
 	</ways>
 </tag-mapping>
