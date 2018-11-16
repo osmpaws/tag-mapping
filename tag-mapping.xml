@@ -65,15 +65,15 @@
 		<osm-tag key="religion" value="muslim" renderable="false" />
 
 		<osm-tag key="shop" value="bakery" zoom-appear="17" />
-		<osm-tag key="shop" value="butcher" zoom-appear="17" />
 		<osm-tag key="shop" value="bicycle" zoom-appear="17" />
+		<osm-tag key="shop" value="butcher" zoom-appear="17" />
 		<osm-tag key="shop" value="convenience" zoom-appear="17" />
 		<osm-tag key="shop" value="garden_centre" zoom-appear="17" />
 		<osm-tag key="shop" value="hairdresser" zoom-appear="17" />
 		<osm-tag key="shop" value="kiosk" zoom-appear="17" />
 		<osm-tag key="shop" value="organic" zoom-appear="17" />
-		<osm-tag key="shop" value="supermarket" zoom-appear="17" />
 		<osm-tag key="shop" value="sport" zoom-appear="17" />
+		<osm-tag key="shop" value="supermarket" zoom-appear="17" />
 	</pois>
 
 	<!-- PUBLIC TRANSPORT TAGS -->
@@ -152,14 +152,15 @@
 
 		<osm-tag key="man_made" value="adit" zoom-appear="17" />
 		<osm-tag key="man_made" value="chimney" zoom-appear="17" />
+		<osm-tag key="man_made" value="cross" zoom-appear="17" />
 		<osm-tag key="man_made" value="lighthouse" zoom-appear="17" />
 		<osm-tag key="man_made" value="mineshaft" zoom-appear="17" />
 		<osm-tag key="man_made" value="surveillance" zoom-appear="17" />
 		<osm-tag key="man_made" value="tower" zoom-appear="17" />
 		<osm-tag key="tower:type" value="communication" zoom-appear="17" />
 		<osm-tag key="tower:type" value="observation" zoom-appear="17" />
+		<osm-tag key="man_made" value="water_works" zoom-appear="15" />
 		<osm-tag key="man_made" value="windmill" zoom-appear="17" />
-		<osm-tag key="man_made" value="cross" zoom-appear="17" />
 
 		<osm-tag key="power" value="generator" zoom-appear="17" />
 		<osm-tag key="power" value="tower" zoom-appear="15" />
