@@ -535,6 +535,7 @@
 		<osm-tag key="highway" value="trunk" zoom-appear="6" />
 		<osm-tag key="highway" value="trunk_link" zoom-appear="6" />
 		<osm-tag key="highway" value="unclassified" zoom-appear="13" />
+		<osm-tag key="highway" value="void" zoom-appear="8" />
 		<osm-tag key="ford" value="yes" zoom-appear="13" />
 		<osm-tag key="junction" value="roundabout" renderable="false" />
 		<osm-tag key="incline" value="up" renderable="false" />
@@ -708,7 +709,7 @@
 		<osm-tag key="osmc_background" value="yellow_frame" renderable="false" />
 		<osm-tag key="osmc_background" value="yellow_round" renderable="false" />
 	</ways>
-	 
+	
 	<!-- OSMC foreground -->
 	<ways>
 		<osm-tag key="osmc_foreground" value="ammonit" renderable="false" />
