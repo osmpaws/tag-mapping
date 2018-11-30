@@ -1329,7 +1329,7 @@
 		<osm-tag key="tracktype" value="grade3" renderable="false" />
 		<osm-tag key="tracktype" value="grade4" renderable="false" />
 		<osm-tag key="tracktype" value="grade5" renderable="false" />
-		<osm-tag key="tracktype" value="void" renderable="false" />
+		<osm-tag key="tracktype" value="void" zoom-appear="12" />
 
 		<osm-tag key="tunnel" value="yes" renderable="false" />
 		<osm-tag key="tunnel" value="no" renderable="false" />
