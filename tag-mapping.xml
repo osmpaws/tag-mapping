@@ -67,12 +67,17 @@
 		<osm-tag key="shop" value="bakery" zoom-appear="17" />
 		<osm-tag key="shop" value="bicycle" zoom-appear="17" />
 		<osm-tag key="shop" value="butcher" zoom-appear="17" />
+		<osm-tag key="shop" value="chemist" zoom-appear="17" />
+		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
 		<osm-tag key="shop" value="convenience" zoom-appear="17" />
 		<osm-tag key="shop" value="garden_centre" zoom-appear="17" />
+		<osm-tag key="shop" value="gift" zoom-appear="17" />
+		<osm-tag key="shop" value="greengrocer" zoom-appear="17" />
 		<osm-tag key="shop" value="hairdresser" zoom-appear="17" />
 		<osm-tag key="shop" value="kiosk" zoom-appear="17" />
 		<osm-tag key="shop" value="organic" zoom-appear="17" />
-		<osm-tag key="shop" value="sport" zoom-appear="17" />
+		<osm-tag key="shop" value="mall" zoom-appear="17" />
+		<osm-tag key="shop" value="sports" zoom-appear="17" />
 		<osm-tag key="shop" value="supermarket" zoom-appear="17" />
 	</pois>
 
