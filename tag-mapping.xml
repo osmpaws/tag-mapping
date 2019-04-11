@@ -1191,6 +1191,7 @@
 		<osm-tag key="building" value="house" zoom-appear="15" />
 		<osm-tag key="building" value="hut" zoom-appear="15" />
 		<osm-tag key="building" value="industrial" zoom-appear="15" />
+		<osm-tag key="building" value="kindergarten" zoom-appear="15" />
 		<osm-tag key="building" value="library" zoom-appear="15" />
 		<osm-tag key="building" value="museum" zoom-appear="15" />
 		<osm-tag key="building" value="office" zoom-appear="15" />
