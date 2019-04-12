@@ -145,6 +145,7 @@
 		<osm-tag key="natural" value="volcano" zoom-appear="12" />
 
 		<osm-tag key="waterway" value="weir" zoom-appear="15" />
+		<osm-tag key="waterway" value="waterfall" zoom-appear="15" />
 	</pois>
 
 	<!-- OTHER POIS -->
