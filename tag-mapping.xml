@@ -183,7 +183,6 @@
 	<!-- AIRPORT TAGS -->
 	<pois>
 		<osm-tag key="aeroway" value="aerodrome" zoom-appear="13" />
-		<osm-tag key="aeroway" value="airport" zoom-appear="13" />
 		<osm-tag key="aeroway" value="gate" zoom-appear="17" />
 		<osm-tag key="aeroway" value="helipad" zoom-appear="17" />
 	</pois>
@@ -1178,7 +1177,6 @@
 		<osm-tag key="building" value="detached" zoom-appear="15" />
 		<osm-tag key="building" value="dormitory" zoom-appear="15" />
 		<osm-tag key="building" value="embassy" zoom-appear="15" />
-		<osm-tag key="building" value="enterance" zoom-appear="15" />
 		<osm-tag key="building" value="farm" zoom-appear="15" />
 		<osm-tag key="building" value="farm_auxiliary" zoom-appear="15" />
 		<osm-tag key="building" value="garage" zoom-appear="15" />
