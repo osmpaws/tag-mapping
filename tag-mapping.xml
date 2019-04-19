@@ -1321,6 +1321,7 @@
 		<osm-tag key="piste:difficulty" value="advanced" renderable="false" />
 		<osm-tag key="piste:difficulty" value="expert" renderable="false" />
 		<osm-tag key="piste:difficulty" value="freeride" renderable="false" />
+		<osm-tag key="piste:difficulty" value="extreme" renderable="false" />
 		<osm-tag key="piste:lit" value="yes" renderable="false"/>
 		<osm-tag key="piste:grooming" value="backcountry" renderable="false"/>
 		<osm-tag key="piste:grooming" value="classic" renderable="false"/>
