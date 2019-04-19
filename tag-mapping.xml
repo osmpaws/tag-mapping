@@ -87,13 +87,6 @@
 		<osm-tag key="railway" value="level_crossing" zoom-appear="16" />
 		<osm-tag key="railway" value="station" zoom-appear="14" />
 		<osm-tag key="railway" value="tram_stop" zoom-appear="16" />
-
-		<osm-tag key="station" value="light_rail" zoom-appear="15">
-			<zoom-override key="railway" value="station" />
-		</osm-tag>
-		<osm-tag key="station" value="subway" zoom-appear="15">
-			<zoom-override key="railway" value="station" />
-		</osm-tag>
 	</pois>
 
 	<!-- TOURISM TAGS -->
@@ -161,14 +154,12 @@
 		<osm-tag key="man_made" value="cross" zoom-appear="17" />
 		<osm-tag key="man_made" value="lighthouse" zoom-appear="17" />
 		<osm-tag key="man_made" value="mineshaft" zoom-appear="17" />
-		<osm-tag key="man_made" value="surveillance" zoom-appear="17" />
 		<osm-tag key="man_made" value="tower" zoom-appear="17" />
 		<osm-tag key="tower:type" value="communication" zoom-appear="17" />
 		<osm-tag key="tower:type" value="observation" zoom-appear="17" />
 		<osm-tag key="man_made" value="water_works" zoom-appear="15" />
 		<osm-tag key="man_made" value="windmill" zoom-appear="17" />
 
-		<osm-tag key="power" value="generator" zoom-appear="17" />
 		<osm-tag key="power" value="tower" zoom-appear="15" />
 		<osm-tag key="power" value="pole" zoom-appear="17" />
 		<osm-tag key="generator:source" value="wind" zoom-appear="17" />
@@ -1156,7 +1147,10 @@
 		<osm-tag key="railway" value="station" zoom-appear="14" />
 		<osm-tag key="railway" value="subway" zoom-appear="15" />
 		<osm-tag key="railway" value="tram" zoom-appear="15" />
-		<osm-tag key="service" value="spur" zoom-appear="14" />
+		<osm-tag key="service" value="crossover" zoom-appear="15" />
+		<osm-tag key="service" value="siding" zoom-appear="15" />
+		<osm-tag key="service" value="spur" zoom-appear="15" />
+		<osm-tag key="service" value="yard" zoom-appear="15" />
 	</ways>
 
 	<!-- BUILDINGS -->
@@ -1292,8 +1286,7 @@
 		<osm-tag key="generator:source" value="solar" renderable="false" />
 		<osm-tag key="generator:method" value="photovoltaic" renderable="false" />
 
-		<osm-tag key="military" value="airfield" zoom-appear="12" />
-		<osm-tag key="military" value="barracks" zoom-appear="12" />
+		<osm-tag key="military" value="barracks" zoom-appear="14" />
 		<osm-tag key="military" value="naval_base" zoom-appear="12" />
 		<osm-tag key="military" value="bunker" zoom-appear="14" />
 		<osm-tag key="bunker_type" value="pillbox" zoom-appear="14" />
