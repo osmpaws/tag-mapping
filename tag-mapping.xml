@@ -187,6 +187,7 @@
 		<osm-tag key="military" value="bunker" zoom-appear="14" />
 		<osm-tag key="bunker_type" value="pillbox" zoom-appear="14" />
 		<osm-tag key="osmc" value="yes" zoom-appear="12" />
+		<osm-tag key="fody" value="bad" renderable="false" />
 	</pois>
 	
 	<!-- OSMC background -->
