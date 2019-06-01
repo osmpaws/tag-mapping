@@ -1268,7 +1268,7 @@
 		<osm-tag key="piste:grooming" value="classic;skating" renderable="false"/>
 		<osm-tag key="piste:abandoned" value="yes" renderable="false"/>
 
-		<osm-tag key="tracktype" value="grade1" renderable="false" />
+		<osm-tag key="tracktype" value="grade1" zoom-appear="12" />
 		<osm-tag key="tracktype" value="grade2" renderable="false" />
 		<osm-tag key="tracktype" value="grade3" renderable="false" />
 		<osm-tag key="tracktype" value="grade4" renderable="false" />
