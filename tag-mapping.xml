@@ -494,6 +494,11 @@
 		<osm-tag key="osmc_text" value="osmc_text_white" renderable="false" />
 		<osm-tag key="osmc_text" value="osmc_text_yellow" renderable="false" />
 	</pois>
+	
+	<pois>
+		<osm-tag key="traffic_calming" value="bump" renderable="false" />
+		<osm-tag key="traffic_calming" value="dip" renderable="false" />
+	</pois>
 
 	<!-- ************* WAYS *************** -->
 
