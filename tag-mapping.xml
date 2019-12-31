@@ -500,8 +500,8 @@
 	</pois>
 	
 	<pois>
-		<osm-tag key="traffic_calming" value="bump" renderable="false" />
-		<osm-tag key="traffic_calming" value="dip" renderable="false" />
+		<osm-tag key="traffic_calming" value="bump" zoom-appear="16" />
+		<osm-tag key="traffic_calming" value="dip" zoom-appear="16" />
 	</pois>
 
 	<!-- ************* WAYS *************** -->
