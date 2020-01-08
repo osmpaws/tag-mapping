@@ -54,6 +54,8 @@
 
 		<osm-tag key="emergency" value="phone" zoom-appear="16" />
 
+		<osm-tag key="leisure" value="dog_park" zoom-appear="16" />
+		<osm-tag key="leisure" value="fire_pit" zoom-appear="17" />
 		<osm-tag key="leisure" value="marina" zoom-appear="13" />
 		<osm-tag key="leisure" value="picnic_table" zoom-appear="16" />
 		<osm-tag key="leisure" value="playground" zoom-appear="17" />
@@ -150,6 +152,7 @@
 		<osm-tag key="barrier" value="swing_gate" zoom-appear="15" />
 
 		<osm-tag key="man_made" value="adit" zoom-appear="17" />
+		<osm-tag key="man_made" value="beehive" zoom-appear="17" />
 		<osm-tag key="man_made" value="chimney" zoom-appear="17" />
 		<osm-tag key="man_made" value="cross" zoom-appear="17" />
 		<osm-tag key="man_made" value="lighthouse" zoom-appear="17" />
@@ -157,6 +160,7 @@
 		<osm-tag key="man_made" value="tower" zoom-appear="17" />
 		<osm-tag key="tower:type" value="communication" zoom-appear="17" />
 		<osm-tag key="tower:type" value="observation" zoom-appear="17" />
+		<osm-tag key="man_made" value="water_tower" zoom-appear="17" />
 		<osm-tag key="man_made" value="water_works" zoom-appear="15" />
 		<osm-tag key="man_made" value="windmill" zoom-appear="17" />
 
@@ -1031,6 +1035,7 @@
 	<ways>
 		<osm-tag key="leisure" value="common" zoom-appear="13" />
 		<osm-tag key="leisure" value="dog_park" zoom-appear="13" />
+		<osm-tag key="leisure" value="fire_pit" zoom-appear="15" />
 		<osm-tag key="leisure" value="garden" zoom-appear="13" />
 		<osm-tag key="leisure" value="golf_course" zoom-appear="13" />
 		<osm-tag key="leisure" value="marina" zoom-appear="13" />
@@ -1222,12 +1227,14 @@
 		<osm-tag key="historic" value="castle" zoom-appear="12" />
 		<osm-tag key="ruins" value="yes" zoom-appear="12" />
 		<osm-tag key="ruins" value="castle" zoom-appear="12" />
-		
+
+		<osm-tag key="man_made" value="apiary" zoom-appear="15" />
 		<osm-tag key="man_made" value="chimney" zoom-appear="17" />
 		<osm-tag key="man_made" value="pier" zoom-appear="15" />
 		<osm-tag key="man_made" value="tower" zoom-appear="15" />
 		<osm-tag key="tower:type" value="communication" zoom-appear="15" />
 		<osm-tag key="tower:type" value="observation" zoom-appear="15" />
+		<osm-tag key="man_made" value="water_tower" zoom-appear="15" />
 		<osm-tag key="man_made" value="water_works" zoom-appear="15" />
 		<osm-tag key="man_made" value="wastewater_plant" zoom-appear="15" />
 		
