@@ -55,7 +55,7 @@
 		<osm-tag key="emergency" value="phone" zoom-appear="16" />
 
 		<osm-tag key="leisure" value="dog_park" zoom-appear="16" />
-		<osm-tag key="leisure" value="fire_pit" zoom-appear="17" />
+		<osm-tag key="leisure" value="firepit" zoom-appear="17" />
 		<osm-tag key="leisure" value="marina" zoom-appear="13" />
 		<osm-tag key="leisure" value="picnic_table" zoom-appear="16" />
 		<osm-tag key="leisure" value="playground" zoom-appear="17" />
