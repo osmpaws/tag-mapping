@@ -93,17 +93,23 @@
 
 	<!-- TOURISM TAGS -->
 	<pois>
+		
+		<osm-tag key="tourism" value="alpine_hut" zoom-appear="14" />
 		<osm-tag key="tourism" value="artwork" zoom-appear="17" />
 		<osm-tag key="tourism" value="attraction" zoom-appear="17" />
+		<osm-tag key="tourism" value="camp_site" zoom-appear="14" />
+		<osm-tag key="tourism" value="caravan_site" zoom-appear="14" />
+		<osm-tag key="tourism" value="chalet" zoom-appear="16" />
+		<osm-tag key="tourism" value="guest_house" zoom-appear="16" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="17" />
 		<osm-tag key="tourism" value="hotel" zoom-appear="17" />
 		<osm-tag key="tourism" value="information" zoom-appear="14" />
+		<osm-tag key="tourism" value="motel" zoom-appear="15" />
 		<osm-tag key="tourism" value="museum" zoom-appear="17" />
-		<osm-tag key="tourism" value="guest_house" zoom-appear="17" />
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
-		<osm-tag key="tourism" value="alpine_hut" zoom-appear="14" />
-		<osm-tag key="tourism" value="camp_site" zoom-appear="14" />
 		<osm-tag key="tourism" value="theme_park" zoom-appear="15" />
+		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="15" />
+		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 
 		<osm-tag key="historic" value="memorial" zoom-appear="16" />
 		<osm-tag key="historic" value="monument" zoom-appear="16" />
@@ -1080,9 +1086,17 @@
 		<osm-tag key="tourism" value="alpine_hut" zoom-appear="15" />
 		<osm-tag key="tourism" value="attraction" zoom-appear="14" />
 		<osm-tag key="tourism" value="camp_site" zoom-appear="14" />
+		<osm-tag key="tourism" value="caravan_site" zoom-appear="14" />
+		<osm-tag key="tourism" value="chalet" zoom-appear="16" />
+		<osm-tag key="tourism" value="guest_house" zoom-appear="16" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="15" />
+		<osm-tag key="tourism" value="hotel" zoom-appear="15" />
+		<osm-tag key="tourism" value="information" zoom-appear="15" />
+		<osm-tag key="tourism" value="motel" zoom-appear="15" />
+		<osm-tag key="tourism" value="museum" zoom-appear="15" />
 		<osm-tag key="tourism" value="picnic_site" zoom-appear="15" />
 		<osm-tag key="tourism" value="theme_park" zoom-appear="15" />
+		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="15" />
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 		
 		<osm-tag key="shop" value="garden_centre" zoom-appear="15" />
