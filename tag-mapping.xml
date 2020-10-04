@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <tag-mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-zoom-appear="16"
     profile-name="default-profile" xmlns="http://mapsforge.org/tag-mapping"
     xsi:schemaLocation="http://mapsforge.org/tag-mapping https://raw.githubusercontent.com/mapsforge/mapsforge/master/resources/tag-mapping.xsd">
@@ -189,10 +189,16 @@
 	</pois>
 	<!--GCCZ-->
 	<pois>
+		<osm-tag key="information" value="audioguide" zoom-appear="14" />
 		<osm-tag key="information" value="guidepost" zoom-appear="13" />
 		<osm-tag key="information" value="map" zoom-appear="13" />
 		<osm-tag key="information" value="board" zoom-appear="13" />
 		<osm-tag key="information" value="office" zoom-appear="13" />
+		<osm-tag key="information" value="route_marker" zoom-appear="14" />
+		<osm-tag key="information" value="tactile_map" zoom-appear="14" />
+		<osm-tag key="information" value="tactile_model" zoom-appear="14" />
+		<osm-tag key="information" value="terminal" zoom-appear="14" />
+		<osm-tag key="information" value="trail_blaze" zoom-appear="14" />
 		<osm-tag key="tourism" value="picnic_site" zoom-appear="15" />
 		<osm-tag key="military" value="bunker" zoom-appear="14" />
 		<osm-tag key="bunker_type" value="pillbox" zoom-appear="14" />
