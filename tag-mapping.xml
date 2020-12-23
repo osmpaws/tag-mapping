@@ -592,6 +592,7 @@
 		<osm-tag key="osmc_color" value="red" renderable="false" />
 		<osm-tag key="osmc_color" value="white" renderable="false" />
 		<osm-tag key="osmc_color" value="yellow" renderable="false" />
+		<osm-tag key="osmc_color" value="none" renderable="false" />
 		<osm-tag key="network" value="iwn" zoom-appear="8" />
 		<osm-tag key="network" value="nwn" zoom-appear="9" />
 		<osm-tag key="network" value="rwn" zoom-appear="12" />
