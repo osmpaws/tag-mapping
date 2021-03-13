@@ -1033,6 +1033,10 @@
 	<ways>
 		<osm-tag key="landuse" value="allotments" zoom-appear="10" />
 		<osm-tag key="landuse" value="basin" zoom-appear="13" />
+		<osm-tag key="basin" value="detention" renderable="false" />
+		<osm-tag key="basin" value="evaporation" renderable="false" />
+		<osm-tag key="basin" value="infiltration" renderable="false" />
+		<osm-tag key="basin" value="retention" renderable="false" />
 		<osm-tag key="landuse" value="brownfield" zoom-appear="10" />
 		<osm-tag key="landuse" value="cemetery" zoom-appear="10" />
 		<osm-tag key="landuse" value="commercial" zoom-appear="10" />
