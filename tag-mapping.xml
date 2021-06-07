@@ -599,6 +599,27 @@
 		<osm-tag key="osmc_color" value="white" renderable="false" />
 		<osm-tag key="osmc_color" value="yellow" renderable="false" />
 		<osm-tag key="osmc_color" value="none" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_1" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_2" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_3" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_4" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_5" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_6" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_7" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_8" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_9" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_10" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_11" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_12" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_13" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_14" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_15" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_16" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_17" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_18" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_19" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_20" renderable="false" />
+		<osm-tag key="osmc_order" value="ord_21" renderable="false" />
 		<osm-tag key="network" value="iwn" zoom-appear="8" />
 		<osm-tag key="network" value="nwn" zoom-appear="9" />
 		<osm-tag key="network" value="rwn" zoom-appear="12" />
