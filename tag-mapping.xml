@@ -1074,6 +1074,7 @@
 		<osm-tag key="landuse" value="cemetery" zoom-appear="10" />
 		<osm-tag key="landuse" value="commercial" zoom-appear="10" />
 		<osm-tag key="landuse" value="construction" zoom-appear="13" />
+		<osm-tag key="landuse" value="education" zoom-appear="13" />
 		<osm-tag key="landuse" value="farm" zoom-appear="13" />
 		<osm-tag key="landuse" value="farmland" zoom-appear="13" />
 		<osm-tag key="crop" value="hop" renderable="false" />
