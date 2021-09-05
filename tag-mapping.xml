@@ -287,6 +287,7 @@
 		<osm-tag key="osmc_foreground" value="black_triangle_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_wheel" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_x" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_arch" renderable="false" />
@@ -741,6 +742,7 @@
 		<osm-tag key="osmc_foreground" value="black_triangle_line" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_triangle_turned" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_turned_T" renderable="false" />
+		<osm-tag key="osmc_foreground" value="black_wheel" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_wheelchair" renderable="false" />
 		<osm-tag key="osmc_foreground" value="black_x" renderable="false" />
 		<osm-tag key="osmc_foreground" value="blue_arch" renderable="false" />
