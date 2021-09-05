@@ -1343,6 +1343,7 @@
 		<osm-tag key="access" value="private" renderable="false" />
 		<osm-tag key="foot" value="no" zoom-appear="16" />
 		<osm-tag key="bicycle" value="no" zoom-appear="16" />
+		<osm-tag key="vehicle" value="no" zoom-appear="16" />
 		<osm-tag key="bicycle" value="designated" renderable="false" />
 		<osm-tag key="foot" value="designated" renderable="false" />
 
